@@ -11,6 +11,5 @@ const Home = () => {
     </div>
   );
 }
-
 // Manual handle delete function in readme
 export default Home;

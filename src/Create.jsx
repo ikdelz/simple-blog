@@ -29,7 +29,7 @@ const Create = () => {
       },
       body: JSON.stringify(blog)
     }).then(() => {
-      console.log('New blog added')
+      console.log('New blog added...')
       setIsLoading(false)
       redirect.push('/')
     })
